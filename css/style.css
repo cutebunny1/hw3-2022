@@ -49,21 +49,33 @@ Double-spaced text */
     line-height: 2;
 }
 
+/* this is wrong -- do not do this: 
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom-style: 2px;
+    border-left-style: 5px; 
+*/
+
 .red {
     background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    /* border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-left-width: 5px; */
+    border-width: 0px 0px 2px 5px;
 }
 
 .blue {
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
-    /* heading: #C4C4C4; */
+    /* border-top-width: 2px;
+    border-right-width: 5px;
+    border-bottom-width: 0px;
+    border-left-width: 0px; */
+    border-width: 2px 5px 0px 0px;
 }
 
 .blue p {
@@ -78,8 +90,11 @@ Double-spaced text */
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
-    border-bottom: 2px;
-    border-left: 5px;
+    /* border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 2px;
+    border-left-width: 5px; */
+    border-width: 0px 0px 2px 5px;
 }
 
 .yellow p {
@@ -90,8 +105,11 @@ Double-spaced text */
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    /* border-top-width: 2px;
+    border-right-width: 5px;
+    border-bottom-width: 0px;
+    border-left-width: 0px; */
+    border-width: 2px 5px 0px 0px;
 }
 
 /* Style the default footer elements with: a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000. */
