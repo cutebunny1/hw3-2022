@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, Verdana;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    padding: 15px;
+}
+
+h2 {
+    color: #0D0D0D;
+    font-size: 30px;
+}
+
+p {
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+img {
+    width: 250px;
+    border: 10px dashed #FFFFFF;
+    margin: auto;
+    display: block;
+}
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
+}
+
+/* 15px border-radius (to curve the edges)
+Margin of 15px margin on the top
+Double-spaced text */
+/* styling introduction class */
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+.red {
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+
+.blue {
+    background-color: #0000FF;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+    /* heading: #C4C4C4; */
+}
+
+.blue p {
+    color: #C4C4C4;
+}
+
+.blue h2 {
+    color: #C4C4C4;
+}
+
+.yellow {
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px;
+    border-left: 5px;
+}
+
+.yellow p {
+    color: #707070;
+}
+
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-right: 5px;
+    border-top: 2px;
+}
+
+/* Style the default footer elements with: a gradient background that starts at #000000, goes to #0000ff at 25,  #0066ff at 70, and ends back at #000000. */
+footer {
+    background-image: linear-gradient(to right, #000000, #0000ff, #0066ff, #000000);
+    border: 5px solid white;
+    
+}
+
+footer p {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 0px;
+    font-size: 20px;
+    text-align: right;
+}
